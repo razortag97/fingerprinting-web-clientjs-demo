@@ -12,12 +12,25 @@
 
 				var client = new ClientJS();
 				var client_values = [
-					client.getFingerprint(),
+					(client.getFingerprint()),
 					client.getUserAgent(),
 					client.getUserAgentLowerCase(),
 					client.getBrowser(),
 					client.getBrowserVersion(),
 					client.getBrowserMajorVersion(),
+
+					client.getScreenPrint(),
+					client.getPlugins(),
+					client.getFonts(),
+					client.isLocalStorage(),
+					client.isSessionStorage(),
+					client.getCanvasPrint(),
+					client.getCPU(),
+					client.isMobile(),
+					client.isIphone(),
+					client.isIpad(),
+					client.isIpod(),
+
 					client.isIE(),
 					client.isChrome(),
 					client.isFirefox(),
@@ -35,24 +48,19 @@
 					client.getDevice(),
 					client.getDeviceType(),
 					client.getDeviceVendor(),
-					client.getCPU(),
-					client.isMobile(),
+
 					client.isMobileMajor(),
 					client.isMobileAndroid(),
 					client.isMobileOpera(),
 					client.isMobileWindows(),
 					client.isMobileBlackBerry(),
 					client.isMobileIOS(),
-					client.isIphone(),
-					client.isIpad(),
-					client.isIpod(),
-					client.getScreenPrint(),
+
 					client.getColorDepth(),
 					client.getCurrentResolution(),
 					client.getAvailableResolution(),
 					client.getDeviceXDPI(),
 					client.getDeviceYDPI(),
-					client.getPlugins(),
 					client.isJava(),
 					client.getJavaVersion(),
 					client.isFlash(),
@@ -62,15 +70,12 @@
 					client.getMimeTypes(),
 					client.isMimeTypes(),
 					client.isFont(),
-					client.getFonts(),
-					client.isLocalStorage(),
-					client.isSessionStorage(),
+
 					client.isCookie(),
 					client.getTimeZone(),
 					client.getLanguage(),
 					client.getSystemLanguage(),
 					client.isCanvas(),
-					client.getCanvasPrint(),
 					client.getBrowserData()
 				]
 
@@ -81,6 +86,21 @@
 					"client.getBrowser()",
 					"client.getBrowserVersion()",
 					"client.getBrowserMajorVersion()",
+
+					"client.getScreenPrint()",
+					"client.getPlugins()",
+					"client.getFonts()",
+					"client.isLocalStorage()",
+					"client.isSessionStorage()",
+					"client.getCanvasPrint()",
+					"client.getCPU()",
+					"client.isMobile()",
+					"client.isIphone()",
+					"client.isIpad()",
+					"client.isIpod()",
+
+
+
 					"client.isIE()",
 					"client.isChrome()",
 					"client.isFirefox()",
@@ -98,24 +118,19 @@
 					"client.getDevice()",
 					"client.getDeviceType()",
 					"client.getDeviceVendor()",
-					"client.getCPU()",
-					"client.isMobile()",
+
 					"client.isMobileMajor()",
 					"client.isMobileAndroid()",
 					"client.isMobileOpera()",
 					"client.isMobileWindows()",
 					"client.isMobileBlackBerry()",
 					"client.isMobileIOS()",
-					"client.isIphone()",
-					"client.isIpad()",
-					"client.isIpod()",
-					"client.getScreenPrint()",
+
 					"client.getColorDepth()",
 					"client.getCurrentResolution()",
 					"client.getAvailableResolution()",
 					"client.getDeviceXDPI()",
 					"client.getDeviceYDPI()",
-					"client.getPlugins()",
 					"client.isJava()",
 					"client.getJavaVersion()",
 					"client.isFlash()",
@@ -125,15 +140,12 @@
 					"client.getMimeTypes()",
 					"client.isMimeTypes()",
 					"client.isFont()",
-					"client.getFonts()",
-					"client.isLocalStorage()",
-					"client.isSessionStorage()",
+
 					"client.isCookie()",
 					"client.getTimeZone()",
 					"client.getLanguage()",
 					"client.getSystemLanguage()",
 					"client.isCanvas()",
-					"client.getCanvasPrint()",
 					"client.getBrowserData()"
 				]
 
